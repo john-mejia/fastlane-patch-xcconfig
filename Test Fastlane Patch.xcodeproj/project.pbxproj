@@ -24,6 +24,7 @@
 		98F60166244E34AC00A1CF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F60169244E34AC00A1CF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98F6016B244E34AC00A1CF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F60171244E34EF00A1CF98 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				98F60166244E34AC00A1CF98 /* Assets.xcassets */,
 				98F60168244E34AC00A1CF98 /* LaunchScreen.storyboard */,
 				98F6016B244E34AC00A1CF98 /* Info.plist */,
+				98F60171244E34EF00A1CF98 /* Config.xcconfig */,
 			);
 			path = "Test Fastlane Patch";
 			sourceTree = "<group>";
@@ -168,6 +170,7 @@
 /* Begin XCBuildConfiguration section */
 		98F6016C244E34AC00A1CF98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F60171244E34EF00A1CF98 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -228,6 +231,7 @@
 		};
 		98F6016D244E34AC00A1CF98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F60171244E34EF00A1CF98 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -282,6 +286,7 @@
 		};
 		98F6016F244E34AC00A1CF98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F60171244E34EF00A1CF98 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +304,7 @@
 		};
 		98F60170244E34AC00A1CF98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F60171244E34EF00A1CF98 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
